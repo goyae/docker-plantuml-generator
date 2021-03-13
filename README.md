@@ -21,6 +21,7 @@ Convert the `*.puml` extension of the `docs/puml` directory to png.
 │       └── requirements.txt
 ├── docker-compose.yml
 ├── docs
+│   ├── .plantcache               <-- Files that have not changed will skip the conversion.
 │   ├── png
 │   │   └── sequence-diagram.png  <-- Generated images.
 │   └── puml                      <-- The target directory is read recursively.

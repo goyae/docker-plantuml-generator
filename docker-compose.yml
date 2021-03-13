@@ -5,7 +5,5 @@ services:
     build: ./docker/plantuml
     tty: true
     volumes:
-      - ./docker/plantuml/plantuml:/usr/bin/plantuml
       - ./docs:/docs
-      - ./scripts:/code
       - .:/docker-plantuml-generator
